@@ -1,0 +1,134 @@
+/* ---- Cores ----- */
+
+:root{
+    --cor-base-1: #fff;
+    --cor-base-2: #00000030;
+    --cor-background-1: #303030;
+    --cor-background-2: #f9f9f9;
+    --cor-botao: #c07212;
+    --cor-sombra: #c0721237;
+    
+}
+
+*{
+    margin: 0rem;
+    padding: 0rem;
+    font-family: "Inter", sans-serif;
+}
+/* ---- Cabeçalho ----- */
+#cabecalho{
+    background-color: var(--cor-background-1);
+    text-align: left;
+    padding: 12.875rem 0rem 12.313rem 3.75rem;
+}
+#titulo_cabecalho{
+    font-size: 3.75rem;
+    color: var(--cor-base-1);
+    font-weight: 600;
+    line-height: 72px;
+    margin-bottom: 1.25rem;
+
+}
+#texto_cabecalho{
+    font-size: 1.25rem;
+    color: var(--cor-base-1);
+    font-weight: 500;
+}
+/* ---- Informativo ---- */
+#informativo{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--cor-background-2);
+    padding: 6rem 0rem 4.188rem 0rem;
+}
+#texto_informativo{
+    font-size: 1.25rem;
+
+}
+.destaque_informativo{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+/* ---- Banner ---- */
+
+#banner{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5.125rem
+
+}
+
+#informacoes_banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+#titulo_banner{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+#texto_banner{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+/* ---- Contato ---- */
+
+#contato{
+    background-color: var(--cor-background-1);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5.438rem;
+}
+
+#titulo_contato{
+    color: var(--cor-base-1);
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#formulario_contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    margin-bottom: 3.875rem;
+    height: 4.5rem;
+    width: 31.75rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-left: 1.875rem;
+}
+
+input::placeholder{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--cor-base-2);
+}
+
+button{
+    background-color: var(--cor-botao);
+    color: var(--cor-base-1);
+    padding: 1.375rem 0rem;
+    font-size: 1.875rem;
+    font-weight: 700;
+    width: 17.875rem;
+    border-radius: 1rem;
+    margin: 1.563rem 0rem 5.438rem 0rem;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: translatey(-1.228rem);
+    transition-duration: 1.8s;
+    box-shadow: 0.6rem 0.875rem var(--cor-sombra);
+}
